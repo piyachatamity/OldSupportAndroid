@@ -1,29 +1,29 @@
-package com.example.hellolibrary.ui
+package com.example.hellolibrary.new_ui
 
 import android.os.Bundle
-import android.support.design.widget.Snackbar
-import android.support.v7.app.AppCompatActivity
+import com.google.android.material.snackbar.Snackbar
+import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.findNavController
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.navigateUp
 import androidx.navigation.ui.setupActionBarWithNavController
 import com.example.hellolibrary.R
-import com.example.hellolibrary.databinding.ActivityPageHelloBinding
+import com.example.hellolibrary.databinding.ActivityPage2Binding
 
-class PageHelloActivity : AppCompatActivity() {
+class Page2Activity : AppCompatActivity() {
 
     private lateinit var appBarConfiguration: AppBarConfiguration
-    private lateinit var binding: ActivityPageHelloBinding
+    private lateinit var binding: ActivityPage2Binding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        binding = ActivityPageHelloBinding.inflate(layoutInflater)
+        binding = ActivityPage2Binding.inflate(layoutInflater)
         setContentView(binding.root)
 
         setSupportActionBar(binding.toolbar)
 
-        val navController = findNavController(R.id.nav_host_fragment_content_page_hello)
+        val navController = findNavController(R.id.nav_host_fragment_content_page2)
         appBarConfiguration = AppBarConfiguration(navController.graph)
         setupActionBarWithNavController(navController, appBarConfiguration)
 
@@ -34,7 +34,7 @@ class PageHelloActivity : AppCompatActivity() {
     }
 
     override fun onSupportNavigateUp(): Boolean {
-        val navController = findNavController(R.id.nav_host_fragment_content_page_hello)
+        val navController = findNavController(R.id.nav_host_fragment_content_page2)
         return navController.navigateUp(appBarConfiguration)
                 || super.onSupportNavigateUp()
     }

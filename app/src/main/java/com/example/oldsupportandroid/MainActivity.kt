@@ -1,12 +1,13 @@
 package com.example.oldsupportandroid
 
 import android.content.Intent
-import android.support.v7.app.AppCompatActivity
+//import android.support.v7.app.AppCompatActivityvity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.TextView
+import androidx.appcompat.app.AppCompatActivity
 import com.example.hellolibrary.HelloMessage
-import com.example.hellolibrary.ui.PageHelloActivity
+import com.example.hellolibrary.new_ui.Page2Activity
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -25,7 +26,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun openPageHello() {
-        val intent = Intent(this, PageHelloActivity::class.java)
+        val intent = Intent(this, Page2Activity::class.java)
         startActivity(intent)
     }
 }

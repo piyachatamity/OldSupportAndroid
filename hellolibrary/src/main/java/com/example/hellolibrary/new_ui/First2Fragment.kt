@@ -1,20 +1,20 @@
-package com.example.hellolibrary.ui
+package com.example.hellolibrary.new_ui
 
 import android.os.Bundle
-import android.support.v4.app.Fragment
+import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.fragment.findNavController
 import com.example.hellolibrary.R
-import com.example.hellolibrary.databinding.FragmentFirstBinding
+import com.example.hellolibrary.databinding.FragmentFirst2Binding
 
 /**
  * A simple [Fragment] subclass as the default destination in the navigation.
  */
-class FirstFragment : Fragment() {
+class First2Fragment : Fragment() {
 
-    private var _binding: FragmentFirstBinding? = null
+    private var _binding: FragmentFirst2Binding? = null
 
     // This property is only valid between onCreateView and
     // onDestroyView.
@@ -25,7 +25,7 @@ class FirstFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
 
-        _binding = FragmentFirstBinding.inflate(inflater, container, false)
+        _binding = FragmentFirst2Binding.inflate(inflater, container, false)
         return binding.root
 
     }
@@ -34,7 +34,7 @@ class FirstFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         binding.buttonFirst.setOnClickListener {
-            findNavController().navigate(R.id.action_FirstFragment_to_SecondFragment)
+            findNavController().navigate(R.id.action_First2Fragment_to_Second2Fragment)
         }
     }
 

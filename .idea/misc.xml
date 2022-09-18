@@ -5,6 +5,7 @@
       <map>
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.33" />
         <entry key="hellolibrary/src/main/res/layout/activity_page2.xml" value="0.19479166666666667" />
+        <entry key="hellolibrary/src/main/res/layout/activity_page_empty.xml" value="0.33" />
         <entry key="hellolibrary/src/main/res/layout/activity_page_hello.xml" value="0.19479166666666667" />
         <entry key="hellolibrary/src/main/res/layout/content_page_hello.xml" value="0.19479166666666667" />
         <entry key="hellolibrary/src/main/res/layout/fragment_first.xml" value="0.1" />

@@ -4,15 +4,8 @@
 
     <application>
         <activity
-            android:name=".Page3Activity"
-            android:exported="false"
-            android:label="@string/title_activity_page3"
-            android:theme="@style/Theme.OldSupportAndroid.NoActionBar" />
-        <activity
-            android:name=".new_ui.Page2Activity"
-            android:exported="false"
-            android:label="@string/title_activity_page2"
-            android:theme="@style/Theme.OldSupportAndroid.NoActionBar" />
+            android:name=".new_ui.PageEmptyActivity"
+            android:exported="false" />
     </application>
 
 </manifest>

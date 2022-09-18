@@ -7,7 +7,9 @@ import android.widget.Button
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import com.example.hellolibrary.HelloMessage
-import com.example.hellolibrary.new_ui.Page2Activity
+import com.example.hellolibrary.new_ui.PageEmptyActivity
+
+//import com.example.hellolibrary.new_ui.Page2Activity
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -26,7 +28,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun openPageHello() {
-        val intent = Intent(this, Page2Activity::class.java)
+        val intent = Intent(this, PageEmptyActivity::class.java)
         startActivity(intent)
     }
 }

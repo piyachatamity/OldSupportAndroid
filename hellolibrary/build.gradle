@@ -52,8 +52,8 @@ afterEvaluate {
                 from components.release
 
                 groupId = 'com.github.piyachatamity'
-                artifactId = 'OldSupportAndroid'
-                version = '0.0.0-alpha01'
+                artifactId = 'hellolibrary'
+                version = '0.0.1-alpha01'
             }
         }
     }

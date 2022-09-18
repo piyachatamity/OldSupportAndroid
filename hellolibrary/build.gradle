@@ -58,7 +58,7 @@ afterEvaluate {
 
                 groupId = 'com.github.piyachatamity'
                 artifactId = 'hellolibrary'
-                version = '0.0.1-alpha02'
+                version = '0.0.1-alpha03'
             }
         }
     }

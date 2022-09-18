@@ -1,11 +1,22 @@
 <resources>
 
+<!--    <style name="Theme.OldSupportAndroid.NoActionBar">-->
+<!--        <item name="windowActionBar">false</item>-->
+<!--        <item name="windowNoTitle">true</item>-->
+<!--    </style>-->
+
+
+
+    <style name="Theme.OldSupportAndroid.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.OldSupportAndroid.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
     <style name="Theme.OldSupportAndroid.NoActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
     </style>
 
-    <style name="Theme.OldSupportAndroid.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
-
-    <style name="Theme.OldSupportAndroid.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <style name="Theme.OldSupportAndroid" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Primary brand color. -->
+        <!-- Customize your theme here. -->
+    </style>
 </resources>

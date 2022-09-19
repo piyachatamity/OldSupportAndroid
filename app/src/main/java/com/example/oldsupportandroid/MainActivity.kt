@@ -6,7 +6,8 @@ import android.os.Bundle
 import android.widget.Button
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
-import com.amityeko.rnr.common.base.BaseActivity
+import com.example.common.LibraryCommonModel
+//import com.amityeko.rnr.common.base.BaseActivity
 import com.example.hellolibrary.HelloMessage
 import com.example.hellolibrary.new_ui.PageEmptyActivity
 
@@ -26,6 +27,8 @@ class MainActivity : AppCompatActivity() {
         button.setOnClickListener {
             openPageHello()
         }
+
+        LibraryCommonModel().getMessage()
     }
 
     private fun openPageHello() {

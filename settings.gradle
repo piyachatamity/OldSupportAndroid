@@ -16,3 +16,4 @@ rootProject.name = "OldSupportAndroid"
 include ':app'
 include ':hellolibrary'
 include ':common'
+include ':media'
